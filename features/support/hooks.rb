@@ -1,7 +1,5 @@
-# frozen_string_literal: true
-
 Before do
-    @loginpage = LoginPage.new
-    @sidebarview = SidebarView.new
-   
+  @login_page = LoginPage.new
+  @sidebar = SideBarView.new
+  @movie_page = MoviePage.new
 end
